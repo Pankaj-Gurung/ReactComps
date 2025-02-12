@@ -1,0 +1,5 @@
+The reason why props is used is for making the component reusable and to pass the information from one component to another.
+It is like the API for the components. For eg: lets take style as a prop. We send the prop from Dropdown Component to the 
+Drop Down page, lets say, we want to one style for one dropdown, one style for another dropdown, if we do not send it as a prop,
+the styling for that component will be the universal, meaning the all dropdown will have same styling. When we send it as a prop
+though, for the same component we can do different stylings. 
